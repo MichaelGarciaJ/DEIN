@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\WPF_Window_Paneles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{821BFF09-8B32-4B58-8112-19AF0657724E}|WPF_Window_Paneles\\WPF_Window_Paneles.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\wpf_window_paneles\\wpf_window_paneles\\grid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{821BFF09-8B32-4B58-8112-19AF0657724E}|WPF_Window_Paneles\\WPF_Window_Paneles.csproj|solutionrelative:wpf_window_paneles\\grid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grid.xaml",
+              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\WPF_Window_Paneles\\WPF_Window_Paneles\\Grid.xaml",
+              "RelativeDocumentMoniker": "WPF_Window_Paneles\\Grid.xaml",
+              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\WPF_Window_Paneles\\WPF_Window_Paneles\\Grid.xaml",
+              "RelativeToolTip": "WPF_Window_Paneles\\Grid.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T11:48:59.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
