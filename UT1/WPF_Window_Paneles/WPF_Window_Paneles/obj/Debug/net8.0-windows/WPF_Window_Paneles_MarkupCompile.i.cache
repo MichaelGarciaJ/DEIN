@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\WPF_Window_Paneles\WPF_Window_Paneles\obj\Debug\net8.0-windows\
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\WPF_Window_Paneles\WPF_Window_Paneles\obj\Debug\net8.0-windows\
 WPF_Window_Paneles
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\WPF_Window_Paneles\WPF_Window_Paneles\App.xaml
-4250965816
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\WPF_Window_Paneles\WPF_Window_Paneles\App.xaml
+61958796336
 
-91640219027
+11-260170405
 1981124507420
-Canvas.xaml;DockPanel.xaml;Grid.xaml;MainWindow.xaml;
+Canvas.xaml;DockPanel.xaml;Grid.xaml;MainWindow.xaml;StackPanel.xaml;WrapPanel.xaml;
 
 True
 

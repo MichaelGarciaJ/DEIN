@@ -53,7 +53,7 @@ namespace WPF_Window_Paneles {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPF_Window_Paneles;component/canvas.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF_Window_Paneles;V1.0.0.0;component/canvas.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Canvas.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
