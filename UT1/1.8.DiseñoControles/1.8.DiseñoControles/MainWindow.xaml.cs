@@ -27,22 +27,30 @@ namespace _1._8.DiseñoControles
 
         private void Boton1_MainWindow1(object sender, RoutedEventArgs e)
         {
+            Window1 AbrirVentana1 = new Window1();
+            this.Close();
+            AbrirVentana1.Show();
 
         }
 
         private void Boton2_Window2(object sender, RoutedEventArgs e)
         {
 
+            Window2 AbrirVentana2 = new Window2();
+            this.Close();
+            AbrirVentana2.Show();
         }
 
         private void Boton3_Window3(object sender, RoutedEventArgs e)
         {
-
+            Window3 AbrirVentana3 = new Window3();
+            this.Close();
+            AbrirVentana3.Show();
         }
 
         private void Boton3_Window4(object sender, RoutedEventArgs e)
         {
-
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

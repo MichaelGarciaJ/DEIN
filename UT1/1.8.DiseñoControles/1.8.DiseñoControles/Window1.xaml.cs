@@ -22,6 +22,36 @@ namespace _1._8.DiseñoControles
         public Window1()
         {
             InitializeComponent();
+            cbBoxPersonaje1.Items.Add(new Personaje { Nombre = "Super Mario", ImagenUrl = "imgs/superMario.jpg"});
+            cbBoxPersonaje2.Items.Add(new Personaje { Nombre = "Brimstone", ImagenUrl = "imgs/brimstone.jpg" });
+            cbBoxPersonaje3.Items.Add(new Personaje { Nombre = "Breaking Bad", ImagenUrl = "imgs/breaking_bad.jpg" });
+        }
+
+        private void cmBoxPersonajes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            if (sender is ComboBox comboBox)
+            {
+                if (comboBox.SelectedItem is Personaje personaje)
+                {
+                    MessageBox.Show($"Has seleccionado: \n{personaje.Nombre}");
+                }
+            }
+
+        }
+
+        private void MainWindow(object sender, RoutedEventArgs e)
+        {
+            MainWindow AbrirMainWindow = new MainWindow();
+            this.Close();
+            AbrirMainWindow.Show();
         }
     }
+
+    public class Personaje
+    {
+        public string Nombre { get; set; }
+        public string ImagenUrl { get; set; }
+    }
+
 }

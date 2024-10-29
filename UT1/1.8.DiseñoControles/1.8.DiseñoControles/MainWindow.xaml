@@ -5,13 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_1._8.DiseñoControles"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="800"
+        Title="MainWindow" Height="760" Width="800"
         ResizeMode="CanResize"
         WindowStartupLocation="CenterScreen"
         SizeToContent="WidthAndHeight"
         Background="Transparent">
     <Border>
-       
         <Border BorderThickness="5" Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -39,7 +38,9 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="200"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="150"/>
                 </Grid.RowDefinitions>
 
                 <TextBlock Text="MENÚ PRINCIPAL" Foreground="White" FontSize="40"
@@ -47,7 +48,7 @@
                 <Button Name="Boton1_MainWindow" Content="Personajes" Height="150" Width="200"
                         Grid.Row="1" Grid.Column="1" Background="#4E6FE6" Foreground="White"
                         FontSize="20" FontFamily="Arial" Cursor="Hand" Click="Boton1_MainWindow1"/>
-                <Button Name="Boton2_MainWindow" Content="Modulos DAM2" Height="150" Width="200"
+                <Button Name="Boton2_MainWindow" Content="Módulos DAM2" Height="150" Width="200"
                         Grid.Row="1" Grid.Column="2" Background="#4E6FE6" Foreground="White"
                         FontSize="20" FontFamily="Montserrat" Cursor="Hand" Click="Boton2_Window2"/>
                 <Button Name="Boton3_MainWindow" Content="Compañeros Clase" Height="150" Width="200"
@@ -56,6 +57,13 @@
                 <Button Name="Boton4_MainWindow" Content="Salir" Height="100" Width="250"
                         Grid.Row="4" Grid.Column="2" Background="#09C9EB" Foreground="White"
                         FontSize="20" FontFamily="Montserrat" Cursor="Hand" Click="Boton3_Window4"/>
+
+                <TextBox Name="txtMultilinea" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" 
+                         Width="600" Height="100" AcceptsReturn="True" 
+                         SpellCheck.IsEnabled="True" TextWrapping="Wrap" 
+                         VerticalScrollBarVisibility="Auto"
+                         HorizontalAlignment="Center" VerticalAlignment="Center"
+                         FontFamily="Arial" FontSize="16"/>
             </Grid>
         </Border>
     </Border>
