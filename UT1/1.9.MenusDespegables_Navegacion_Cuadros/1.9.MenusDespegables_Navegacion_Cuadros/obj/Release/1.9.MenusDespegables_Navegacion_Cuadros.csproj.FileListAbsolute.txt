@@ -1,0 +1,17 @@
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\bin\Release\1.9.MenusDespegables_Navegacion_Cuadros.exe.config
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\bin\Release\1.9.MenusDespegables_Navegacion_Cuadros.exe
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\bin\Release\1.9.MenusDespegables_Navegacion_Cuadros.pdb
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros.csproj.AssemblyReference.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\MainWindow.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\Window1=Usuarios.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\App.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros_MarkupCompile.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros_MarkupCompile.lref
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\MainWindow.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\Window1=Usuarios.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros.g.resources
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\_1._9.MenusDespegables_Navegacion_Cuadros.Properties.Resources.resources
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros.csproj.GenerateResource.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros.csproj.CoreCompileInputs.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros.exe
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.9.MenusDespegables_Navegacion_Cuadros\1.9.MenusDespegables_Navegacion_Cuadros\obj\Release\1.9.MenusDespegables_Navegacion_Cuadros.pdb

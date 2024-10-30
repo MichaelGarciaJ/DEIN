@@ -13,7 +13,6 @@ C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles
 C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\1.8.DiseñoControles.csproj.CoreCompileInputs.cache
 C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\1.8.DiseñoControles.exe
 C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\1.8.DiseñoControles.pdb
-C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\bin\Debug\imgs\fotoVentanaPrincipal.png
 C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\bin\Debug\1.8.DiseñoControles.exe.config
 C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\bin\Debug\1.8.DiseñoControles.exe
 C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\bin\Debug\1.8.DiseñoControles.pdb
@@ -35,3 +34,9 @@ C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControl
 C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window2.baml
 C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window3.g.cs
 C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window3.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window1.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window2.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window3.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window1.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window2.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.8.DiseñoControles\1.8.DiseñoControles\obj\Debug\Window3.baml
