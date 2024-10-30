@@ -1,0 +1,22 @@
+﻿<Window x:Class="_1._10.FormularioEmpleado.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1._10.FormularioEmpleado"
+        mc:Ignorable="d"
+        Title="Introducción de Datos Empleados" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip">
+
+    <Grid>
+        
+        <!--Título-->
+        <TextBlock Text="Introducción de Datos de Empleados" FontSize="25"
+                   HorizontalAlignment="Center" Margin="0,10,0,20"/>
+
+        <!-- Campos de entrada -->
+        <TextBlock Text="Nombre*" Margin="10,60,390,0" VerticalAlignment="Top" Height="18" />
+        <TextBox Name="txtNombre" Tag="Nombre" GotFocus="txtNombre_GotFocus" LostFocus="txtNombre_LostFocus" Margin="100,60,390,0" VerticalAlignment="Top" />
+        
+    </Grid>
+</Window>

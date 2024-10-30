@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2462FE01-CE59-46B0-90B6-D2026CAB4530}|1.9.MenusDespegables_Navegacion_Cuadros\\1.9.MenusDespegables_Navegacion_Cuadros.csproj|solutionrelative:1.9.menusdespegables_navegacion_cuadros\\window1=usuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2462FE01-CE59-46B0-90B6-D2026CAB4530}|1.9.MenusDespegables_Navegacion_Cuadros\\1.9.MenusDespegables_Navegacion_Cuadros.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\1.9.menusdespegables_navegacion_cuadros\\1.9.menusdespegables_navegacion_cuadros\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2462FE01-CE59-46B0-90B6-D2026CAB4530}|1.9.MenusDespegables_Navegacion_Cuadros\\1.9.MenusDespegables_Navegacion_Cuadros.csproj|C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.9.MenusDespegables_Navegacion_Cuadros\\1.9.menusdespegables_navegacion_cuadros\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2462FE01-CE59-46B0-90B6-D2026CAB4530}|1.9.MenusDespegables_Navegacion_Cuadros\\1.9.MenusDespegables_Navegacion_Cuadros.csproj|solutionrelative:1.9.menusdespegables_navegacion_cuadros\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -45,8 +45,7 @@
               "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.9.MenusDespegables_Navegacion_Cuadros\\1.9.MenusDespegables_Navegacion_Cuadros\\MainWindow.xaml",
               "RelativeToolTip": "1.9.MenusDespegables_Navegacion_Cuadros\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T11:38:02.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T11:38:02.53Z"
             },
             {
               "$type": "Document",
@@ -58,8 +57,7 @@
               "RelativeToolTip": "1.9.MenusDespegables_Navegacion_Cuadros\\MainWindow.xaml.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAcwFQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:38:02.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T11:38:02.173Z"
             }
           ]
         }
