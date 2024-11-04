@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 
 namespace _1._10.FormularioEmpleado
 {
@@ -22,13 +24,15 @@ namespace _1._10.FormularioEmpleado
     public partial class MainWindow : Window
     {
 
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+
+    public ObservableCollection<Employee> Employees { get; set; } = new ObservableCollection<Employee>();
 
         public MainWindow()
         {
             InitializeComponent();
             ClearForm();
             dataGridEmpleados.ItemsSource = Employees;
+
         }
 
         private void txtNombre_GotFocus(object sender, RoutedEventArgs e)
@@ -299,12 +303,11 @@ namespace _1._10.FormularioEmpleado
                     CodigoPostal = txtCodigoPostal.Text,
                     Pais = txtPais.Text,
                     EnlaceRedSocial = txtEnlaceRedSocial.Text,
-                    Rol = (cbBoxRol.SelectedItem as ComboBoxItem)?.Content.ToString(),
+                    Rol = cbBoxRol.Text,
                     DescripcionPuesto = txtDescricpcion.Text
                 };
 
                 Employees.Add(employee);
-                dataGridEmpleados.Items.Refresh();
 
                 MessageBox.Show("Empleado guardado.");
                 ClearForm();
@@ -359,32 +362,23 @@ namespace _1._10.FormularioEmpleado
                 txtApellidos.Text = selectedEmployee.Apellidos;
                 txtEmail.Text = selectedEmployee.Email;
                 txtTelefono.Text = selectedEmployee.Telefono;
-                dtPickerFechaNacimiento.SelectedDate = selectedEmployee.FechaNacimiento;
-                txtDni.Text = selectedEmployee.Dni;
-                txtDireccion.Text = selectedEmployee.Direccion;
-                txtCiudad.Text = selectedEmployee.Ciudad;
-                txtProvincia.Text = selectedEmployee.Provincia;
-                txtCodigoPostal.Text = selectedEmployee.CodigoPostal;
-                txtPais.Text = selectedEmployee.Pais;
-                txtEnlaceRedSocial.Text = selectedEmployee.EnlaceRedSocial;
-                cbBoxRol.SelectedItem = cbBoxRol.Items.Cast<ComboBoxItem>()
-                                        .FirstOrDefault(item => item.Content.ToString() == selectedEmployee.Rol);
-                txtDescricpcion.Text = selectedEmployee.DescripcionPuesto;
             }
         }
 
         private bool ValidateForm()
         {
             return txtNombre.Text != "Nombre" && !string.IsNullOrWhiteSpace(txtNombre.Text) &&
+                   txtApellidos.Text !="Apellidos" && !string.IsNullOrWhiteSpace (txtApellidos.Text) &&
                    txtEmail.Text != "Email" && !string.IsNullOrWhiteSpace(txtEmail.Text) &&
-                   txtTelefono.Text != "Telefono" && !string.IsNullOrWhiteSpace(txtTelefono.Text) &&
-                   txtDni.Text != "Dni" && !string.IsNullOrWhiteSpace(txtDni.Text) &&
-                   dtPickerFechaNacimiento.SelectedDate != null;
+                   txtTelefono.Text != "Telefono" && !string.IsNullOrWhiteSpace(txtTelefono.Text);
+                  
         }
 
+        private void dataGridEmpleados_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
-
-
 
     public class Employee
     {

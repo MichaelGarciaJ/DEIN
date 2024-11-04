@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\bin\Release\1.10.FormularioEmpleado.exe.config
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\bin\Release\1.10.FormularioEmpleado.exe
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\bin\Release\1.10.FormularioEmpleado.pdb
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\MainWindow.g.cs
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\App.g.cs
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado_MarkupCompile.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado_MarkupCompile.lref
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\MainWindow.baml
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado.g.resources
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\_1._10.FormularioEmpleado.Properties.Resources.resources
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado.exe
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\1.10.FormularioEmpleado\1.10.FormularioEmpleado\obj\Release\1.10.FormularioEmpleado.pdb
