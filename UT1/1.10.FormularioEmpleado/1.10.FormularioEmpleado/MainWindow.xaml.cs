@@ -21,9 +21,14 @@ namespace _1._10.FormularioEmpleado
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public List<Employee> Employees { get; set; } = new List<Employee>();
+
         public MainWindow()
         {
             InitializeComponent();
+            ClearForm();
+            dataGridEmpleados.ItemsSource = Employees;
         }
 
         private void txtNombre_GotFocus(object sender, RoutedEventArgs e)
@@ -280,47 +285,123 @@ namespace _1._10.FormularioEmpleado
         {
             if (ValidateForm())
             {
-                MessageBox.Show("Form is valid. Saving data...");
+                var employee = new Employee
+                {
+                    Nombre = txtNombre.Text,
+                    Apellidos = txtApellidos.Text,
+                    Email = txtEmail.Text,
+                    Telefono = txtTelefono.Text,
+                    FechaNacimiento = dtPickerFechaNacimiento.SelectedDate,
+                    Dni = txtDni.Text,
+                    Direccion = txtDireccion.Text,
+                    Ciudad = txtCiudad.Text,
+                    Provincia = txtProvincia.Text,
+                    CodigoPostal = txtCodigoPostal.Text,
+                    Pais = txtPais.Text,
+                    EnlaceRedSocial = txtEnlaceRedSocial.Text,
+                    Rol = (cbBoxRol.SelectedItem as ComboBoxItem)?.Content.ToString(),
+                    DescripcionPuesto = txtDescricpcion.Text
+                };
 
+                Employees.Add(employee);
+                dataGridEmpleados.Items.Refresh();
 
+                MessageBox.Show("Empleado guardado.");
+                ClearForm();
             }
             else
             {
-                MessageBox.Show("Please fill in all required fields.");
+                MessageBox.Show("Por favor, completa todos los campos obligatorios.");
             }
         }
 
         private void btnCancelar(object sender, RoutedEventArgs e)
         {
-            txtNombre.Text = "";
-            txtApellidos.Text = "";
-            txtEmail.Text = "";
-            txtTelefono.Text = "";
-            txtDni.Text = "";
-            txtDireccion.Text = "Direccion";
+            ClearForm();
+        }
+
+        private void ClearForm()
+        {
+            txtNombre.Text = "Nombre";
+            txtApellidos.Text = "Apellidos";
+            txtEmail.Text = "Email";
+            txtTelefono.Text = "Telefono";
+            dtPickerFechaNacimiento.SelectedDate = null;
+            txtDni.Text = "Dni";
+            txtDireccion.Text = "Dirección";
             txtCiudad.Text = "Ciudad";
             txtProvincia.Text = "Provincia";
-            txtCodigoPostal.Text = "CodigoPostal";
-            txtPais.Text = "Pais";
-            txtEnlaceRedSocial.Text = "";
-            txtDescricpcion.Text = "";
+            txtCodigoPostal.Text = "Código Postal";
+            txtPais.Text = "País";
+            txtEnlaceRedSocial.Text = "EnlaceRedSocial";
+            txtDescricpcion.Text = "DescripcionPuesto";
             cbBoxRol.SelectedIndex = -1;
-            dtPickerFechaNacimiento.SelectedDate = null;
+
+            txtNombre.Foreground = Brushes.Gray;
+            txtApellidos.Foreground = Brushes.Gray;
+            txtEmail.Foreground = Brushes.Gray;
+            txtTelefono.Foreground = Brushes.Gray;
+            txtDni.Foreground = Brushes.Gray;
+            txtDireccion.Foreground = Brushes.Gray;
+            txtCiudad.Foreground = Brushes.Gray;
+            txtProvincia.Foreground = Brushes.Gray;
+            txtCodigoPostal.Foreground = Brushes.Gray;
+            txtPais.Foreground = Brushes.Gray;
+            txtEnlaceRedSocial.Foreground = Brushes.Gray;
+            txtDescricpcion.Foreground = Brushes.Gray;
         }
 
         private void dataGridEmpleados_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            if (dataGridEmpleados.SelectedItem is Employee selectedEmployee)
+            {
+                txtNombre.Text = selectedEmployee.Nombre;
+                txtApellidos.Text = selectedEmployee.Apellidos;
+                txtEmail.Text = selectedEmployee.Email;
+                txtTelefono.Text = selectedEmployee.Telefono;
+                dtPickerFechaNacimiento.SelectedDate = selectedEmployee.FechaNacimiento;
+                txtDni.Text = selectedEmployee.Dni;
+                txtDireccion.Text = selectedEmployee.Direccion;
+                txtCiudad.Text = selectedEmployee.Ciudad;
+                txtProvincia.Text = selectedEmployee.Provincia;
+                txtCodigoPostal.Text = selectedEmployee.CodigoPostal;
+                txtPais.Text = selectedEmployee.Pais;
+                txtEnlaceRedSocial.Text = selectedEmployee.EnlaceRedSocial;
+                cbBoxRol.SelectedItem = cbBoxRol.Items.Cast<ComboBoxItem>()
+                                        .FirstOrDefault(item => item.Content.ToString() == selectedEmployee.Rol);
+                txtDescricpcion.Text = selectedEmployee.DescripcionPuesto;
+            }
         }
 
         private bool ValidateForm()
         {
-            return !string.IsNullOrWhiteSpace(txtNombre.Text) && txtNombre.Text != "Nombre" &&
-                   !string.IsNullOrWhiteSpace(txtEmail.Text) && txtEmail.Text != "Email" &&
-                   !string.IsNullOrWhiteSpace(txtTelefono.Text) && txtTelefono.Text != "Telefono" &&
-                   dtPickerFechaNacimiento.SelectedDate != null &&
-                   !string.IsNullOrWhiteSpace(txtDni.Text) && txtDni.Text != "Dni";
+            return txtNombre.Text != "Nombre" && !string.IsNullOrWhiteSpace(txtNombre.Text) &&
+                   txtEmail.Text != "Email" && !string.IsNullOrWhiteSpace(txtEmail.Text) &&
+                   txtTelefono.Text != "Telefono" && !string.IsNullOrWhiteSpace(txtTelefono.Text) &&
+                   txtDni.Text != "Dni" && !string.IsNullOrWhiteSpace(txtDni.Text) &&
+                   dtPickerFechaNacimiento.SelectedDate != null;
         }
 
     }
+
+
+
+    public class Employee
+    {
+        public string Nombre { get; set; }
+        public string Apellidos { get; set; }
+        public string Email { get; set; }
+        public string Telefono { get; set; }
+        public DateTime? FechaNacimiento { get; set; }
+        public string Dni { get; set; }
+        public string Direccion { get; set; }
+        public string Ciudad { get; set; }
+        public string Provincia { get; set; }
+        public string CodigoPostal { get; set; }
+        public string Pais { get; set; }
+        public string EnlaceRedSocial { get; set; }
+        public string Rol { get; set; }
+        public string DescripcionPuesto { get; set; }
+    }
 }
+

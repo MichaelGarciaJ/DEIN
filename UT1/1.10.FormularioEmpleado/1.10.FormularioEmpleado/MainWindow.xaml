@@ -27,14 +27,15 @@
         <DatePicker x:Name="dtPickerFechaNacimiento" Tag="FechaNacimiento" Margin="140,180,390,0" VerticalAlignment="Top"/>
         <TextBlock Text="DNI" Margin="20,215,390,0" VerticalAlignment="Top" Height="18"/>
         <TextBox x:Name="txtDni" Tag="Dni" GotFocus="txtDni_GotFocus" LostFocus="txtDni_LostFocus" Margin="60,215,500,0" VerticalAlignment="Top"/>
+        
         <TextBlock Text="Adjuntar fotografía" Margin="20,280,390,0" VerticalAlignment="Top" Height="18"/>
         <Button Content="Cargar Foto" Click="btnCargarFoto" Margin="140,270,545,0" VerticalAlignment="Top" Height="35"/>
         <TextBlock Text="Domicilio" Margin="20,340,390,0" VerticalAlignment="Top" Height="18"/>
-        <TextBox x:Name="txtDireccion" Tag="Direccion" GotFocus="txtDireccion_GotFocus" LostFocus="txtDireccion_LostFocus" Margin="100,340,390,0" VerticalAlignment="Top" Text="Dirección"/>
-        <TextBox x:Name="txtCiudad" Tag="Domicilio" GotFocus="txtCiudad_GotFocus" LostFocus="txtCiudad_LostFocus" Margin="100,365,390,0" VerticalAlignment="Top" Text="Ciudad"/>
-        <TextBox x:Name="txtProvincia" Tag="Provincia" GotFocus="txtProvincia_GotFocus" LostFocus="txtProvincia_LostFocus" Margin="100,390,390,0" VerticalAlignment="Top" Text="Provincia"/>
-        <TextBox x:Name="txtCodigoPostal" Tag="CodigoPostal" GotFocus="txtCodigoPostal_GotFocus" LostFocus="txtCodigoPostal_LostFocus" Margin="100,415,390,0" VerticalAlignment="Top" Text="Código Postal"/>
-        <TextBox x:Name="txtPais" Tag="Pais" GotFocus="txtPais_GotFocus" LostFocus="txtPais_LostFocus" Margin="100,440,390,0" VerticalAlignment="Top" Text="Pais"/>
+        <TextBox x:Name="txtDireccion" Tag="Dirección" GotFocus="txtDireccion_GotFocus"  LostFocus="txtDireccion_LostFocus" Margin="100,340,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCiudad" Tag="Ciudad" GotFocus="txtCiudad_GotFocus" LostFocus="txtCiudad_LostFocus" Margin="100,365,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProvincia" Tag="Provincia" GotFocus="txtProvincia_GotFocus" LostFocus="txtProvincia_LostFocus" Margin="100,390,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCodigoPostal" Tag="Código Postal" GotFocus="txtCodigoPostal_GotFocus"  LostFocus="txtCodigoPostal_LostFocus"  Margin="100,415,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPais" Tag="País" GotFocus="txtPais_GotFocus"  LostFocus="txtPais_LostFocus"  Margin="100,440,390,0" VerticalAlignment="Top"/>
 
 
         <TextBlock Text="Enlace a red social" Margin="20,480,390,0" VerticalAlignment="Top" Height="18"/>
