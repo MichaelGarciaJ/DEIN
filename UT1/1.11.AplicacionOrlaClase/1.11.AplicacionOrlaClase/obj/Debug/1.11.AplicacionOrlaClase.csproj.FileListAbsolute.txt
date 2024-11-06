@@ -1,0 +1,15 @@
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\bin\Debug\1.11.AplicacionOrlaClase.exe.config
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\bin\Debug\1.11.AplicacionOrlaClase.exe
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\bin\Debug\1.11.AplicacionOrlaClase.pdb
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase.csproj.AssemblyReference.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\MainWindow.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\App.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase_MarkupCompile.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase_MarkupCompile.lref
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\MainWindow.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase.g.resources
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\_1._11.AplicacionOrlaClase.Properties.Resources.resources
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase.csproj.GenerateResource.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase.csproj.CoreCompileInputs.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase.exe
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\1.11.AplicacionOrlaClase\1.11.AplicacionOrlaClase\obj\Debug\1.11.AplicacionOrlaClase.pdb
