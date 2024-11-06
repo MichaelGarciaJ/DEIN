@@ -25,21 +25,6 @@ namespace _1._11.AplicacionOrlaClase
             InitializeComponent();
         }
 
-        private void MouseEnter41(object sender, MouseEventArgs e)
-        {
-
-            LabelPuesto41.Text = "Anthuan";
-        }
-
-        private void MouseLeave41(object sender, MouseEventArgs e)
-        {
-            LabelPuesto41.Text = "";
-        }
-
-        private void MouseClick41(object sender, RoutedEventArgs e)
-        {
-            LabelPuesto41.Text = "email_alumno@educacion.navarra.es";
-        }
 
     }
 }

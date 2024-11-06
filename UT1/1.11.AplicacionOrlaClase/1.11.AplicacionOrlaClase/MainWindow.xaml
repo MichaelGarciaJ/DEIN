@@ -12,16 +12,11 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="9*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="18*"/>
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -36,326 +31,36 @@
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Fila 4, Puesto 1 -->
-        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Anthuan" FontStretch="Expanded" x:Name="LabelPuesto41" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"
-                           MouseEnter="MouseEnter41" MouseLeave="MouseLeave41"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona41" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto11.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="2" Grid.Column="1" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
+        <!-- Fila 4 -->
+        <local:Puesto Nombre="Anthuan" Apellidos="Lugris Toymill" Email="alugristoy@educacion.navarra.es" Foto="Imagenes/foto11.png" Grid.Row="1" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Aroa" Apellidos="Garde Martinez-Losa" Email="agardemart1@educacion.navarra.es" Foto="Imagenes/foto7.png" Grid.Row="1" Grid.Column="2" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Izan" Apellidos="Ramos Cervantes" Email="iramoscerv1@educacion.navarra.es" Foto="Imagenes/foto15.png" Grid.Row="1" Grid.Column="3" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Daniel Alejandro" Apellidos="Medina Colmenares" Email="dmedinacol1@educacion.navarra.es" Foto="Imagenes/foto13.png" Grid.Row="1" Grid.Column="5" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Sergio" Apellidos="Ajona Zaldibar" Email="sajonazald@educacion.navarra.es" Foto="Imagenes/foto2.png" Grid.Row="1" Grid.Column="6" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Aimar" Apellidos="Huici Delgado" Email="ahuicidelg1@educacion.navarra.es" Foto="Imagenes/foto9.png" Grid.Row="1" Grid.Column="7" Grid.RowSpan="1"/>
 
-        <!-- Fila 4, Puesto 2 -->
-        <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Aroa" FontStretch="Expanded" x:Name="LabelPuesto42" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona42" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto7.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="2" Grid.Column="2" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
+        <!-- Fila 3 -->
+        <local:Puesto Nombre="Diego Fernando" Apellidos="Cano Rodriguez" Email="dcanorodri@educacion.navarra.es" Foto="Imagenes/foto5.png" Grid.Row="2" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Aritz" Apellidos="Ayensa Elizalde" Email="aayensaeli1@educacion.navarra.es" Foto="Imagenes/foto3.png" Grid.Row="2" Grid.Column="3" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Jon" Apellidos="Goñi Jimenez" Email="jgonijimen3@educacion.navarra.es" Foto="Imagenes/foto8.png" Grid.Row="2" Grid.Column="5" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Nestor" Apellidos="Aguirre Martinez de Goni" Email="naguirrmar2@educacion.navarra.es" Foto="Imagenes/foto1.png" Grid.Row="2" Grid.Column="7" Grid.RowSpan="1"/>
 
-        <!-- Fila 4, Puesto 3 -->
-        <StackPanel Grid.Row="1" Grid.Column="3" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Izan" FontStretch="Expanded" x:Name="LabelPuesto43" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona43" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto15.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="2" Grid.Column="3" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
+        <!-- Fila 2 -->
+        <local:Puesto Nombre="Carla" Apellidos="Barbería Flamarique" Email="cbarberfla@educacion.navarra.es" Foto="Imagenes/foto4.png" Grid.Row="3" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="David" Apellidos="Reguilón Torres" Email="dreguiltor1@educacion.navarra.es" Foto="Imagenes/foto16.png" Grid.Row="3" Grid.Column="3" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Yeray" Apellidos="Sánchez Rodríguez" Email="ysancherod1@educacion.navarra.es" Foto="Imagenes/foto17.png" Grid.Row="3" Grid.Column="5" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Michael Alexander" Apellidos="García Jumbo" Email="mgarciajum@educacion.navarra.es" Foto="Imagenes/foto6.png" Grid.Row="3" Grid.Column="7" Grid.RowSpan="1"/>
 
-        <!-- Fila 4, Puesto 4 -->
-        <StackPanel Grid.Row="1" Grid.Column="5" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Daniel" FontStretch="Expanded" x:Name="LabelPuesto44" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona44" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto13.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="2" Grid.Column="5" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
+        <!-- Fila 1 -->
+        <local:Puesto Nombre="Beñat" Apellidos="Martínez Moreno" Email="bmartinmor3@educacion.navarra.es" Foto="Imagenes/foto12.png" Grid.Row="4" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Paula" Apellidos="Iturbide Cristobal" Email="piturbicri@educacion.navarra.es" Foto="Imagenes/foto10.png" Grid.Row="4" Grid.Column="2" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Unai" Apellidos="	Urabayen Liberal" Email="uurabaylib1@educacion.navarra.es" Foto="Imagenes/foto19.png" Grid.Row="4" Grid.Column="3" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Gorka" Apellidos="Urabayen Liberal" Email="gurabaylib1@educacion.navarra.es" Foto="Imagenes/foto18.png" Grid.Row="4" Grid.Column="5" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Italo Joaquin" Apellidos="Ramirez Arellano" Email="iramireare@educacion.navarra.es" Foto="Imagenes/foto14.png" Grid.Row="4" Grid.Column="7" Grid.RowSpan="1"/>
 
-        <!-- Fila 4, Puesto 5 -->
-        <StackPanel Grid.Row="1" Grid.Column="6" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Sergio" FontStretch="Expanded" x:Name="LabelPuesto45" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona45" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto2.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="2" Grid.Column="6" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
+        <!-- Profesor -->
+        <local:Puesto Nombre="Mikel" Apellidos="Perales" Email="mperaleurm@educacion.navarra.es" Foto="Imagenes/fotoProfe.png" Grid.Row="5" Grid.Column="1" Grid.RowSpan="1"/>
 
-        <!-- Fila 4, Puesto 6 -->
-        <StackPanel Grid.Row="1" Grid.Column="7" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Aimar" FontStretch="Expanded" x:Name="LabelPuesto46" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona46" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto9.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="2" Grid.Column="7" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 3, Puesto 1 -->
-        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Diego" FontStretch="Expanded" x:Name="LabelPuesto31" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona31" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto5.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="4" Grid.Column="1" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 3, Puesto 3 -->
-        <StackPanel Grid.Row="3" Grid.Column="3" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Aritz" FontStretch="Expanded" x:Name="LabelPuesto33" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona33" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto3.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="4" Grid.Column="3" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 3, Puesto 4 -->
-        <StackPanel Grid.Row="3" Grid.Column="5" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Jon" FontStretch="Expanded" x:Name="LabelPuesto34" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona34" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto8.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="4" Grid.Column="5" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 3, Puesto 6 -->
-        <StackPanel Grid.Row="3" Grid.Column="7" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Nestor" FontStretch="Expanded" x:Name="LabelPuesto36" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona36" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto1.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="4" Grid.Column="7" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 2, Puesto 1 -->
-        <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Carla" FontStretch="Expanded" x:Name="LabelPuesto21" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona21" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto4.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="6" Grid.Column="1" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 2, Puesto 3 -->
-        <StackPanel Grid.Row="5" Grid.Column="3" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="David" FontStretch="Expanded" x:Name="LabelPuesto23" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona23" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto16.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="6" Grid.Column="3" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 2, Puesto 4 -->
-        <StackPanel Grid.Row="5" Grid.Column="5" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Yeray" FontStretch="Expanded" x:Name="LabelPuesto24" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona24" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto17.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="6" Grid.Column="5" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 2, Puesto 6 -->
-        <StackPanel Grid.Row="5" Grid.Column="7" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Michael" FontStretch="Expanded" x:Name="LabelPuesto26" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona26" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto6.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="6" Grid.Column="7" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 1, Puesto 1 -->
-        <StackPanel Grid.Row="7" Grid.Column="1" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Beñat" FontStretch="Expanded" x:Name="LabelPuesto11" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona11" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto12.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="8" Grid.Column="1" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 1, Puesto 2 -->
-        <StackPanel Grid.Row="7" Grid.Column="2" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Paula" FontStretch="Expanded" x:Name="LabelPuesto12" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona12" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto10.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="8" Grid.Column="2" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 1, Puesto 3 -->
-        <StackPanel Grid.Row="7" Grid.Column="3" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Unai" FontStretch="Expanded" x:Name="LabelPuesto13" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona13" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto19.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="8" Grid.Column="3" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 1, Puesto 4 -->
-        <StackPanel Grid.Row="7" Grid.Column="5" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Gorka" FontStretch="Expanded" x:Name="LabelPuesto14" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona14" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto18.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="8" Grid.Column="5" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 1, Puesto 6 -->
-        <StackPanel Grid.Row="7" Grid.Column="7" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Italo" FontStretch="Expanded" x:Name="LabelPuesto16" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona16" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\foto14.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="8" Grid.Column="7" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
-
-        <!-- Fila 0, Puesto 1 -->
-        <StackPanel Grid.Row="9" Grid.Column="1" Orientation="Vertical">
-            <Viewbox Height="20" MaxWidth="100" StretchDirection="DownOnly">
-                <TextBlock Text="Mikel" FontStretch="Expanded" x:Name="LabelPuesto01" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona01" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40">
-                <Button.OpacityMask>
-                    <ImageBrush ImageSource="\Imagenes\usuario.png"/>
-                </Button.OpacityMask>
-                <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="\Imagenes\fotoProfe.png"></ImageBrush>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-        <Image Grid.Row="10" Grid.Column="1" Source="\Imagenes\PC.png" Margin="15" Width="70" Height="70"/>
 
     </Grid>
 </Window>
