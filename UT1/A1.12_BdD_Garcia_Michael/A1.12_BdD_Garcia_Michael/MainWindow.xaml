@@ -12,6 +12,6 @@
         <Label Content="Curso FP" FontSize="20" HorizontalAlignment="Center" Margin="10"/>
 
         <ListBox Name="CursosListBox" Margin="10,50,10,10"/>
-        
+
     </Grid>
 </Window>

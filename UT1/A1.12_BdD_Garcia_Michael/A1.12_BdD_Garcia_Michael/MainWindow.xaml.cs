@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,25 +12,58 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Configuration;
 using System.Data.SqlClient;
 
 namespace A1._12_BdD_Garcia_Michael
 {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
+
+        SqlConnection miConexionSql;
+
         public MainWindow()
         {
             InitializeComponent();
 
-            String miConexion = ConfigurationManager.ConnectionStrings["A1._12_BdD_Garcia_Michael.Properties.Settings.A1.12_BdD_Garcia_Michael"].ConnectionString;
+            String miConexion = ConfigurationManager.ConnectionStrings["A1._12_BdD_Garcia_Michael.Properties.Settings._A1.12_BdD_Garcia_Michael"].ConnectionString;
+
+            miConexionSql = new SqlConnection(miConexion);
+
+            muestraCiclos();
         }
 
         private void muestraCiclos()
         {
-            string consulta = "SELECT * FROM Ciclos";
+            string consulta = "SELECT Denominacion FROM Ciclos";
+
+            List<string> cursos = new List<string>();
+
+            try
+            {
+                miConexionSql.Open();
+                SqlCommand command = new SqlCommand(consulta, miConexionSql);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    cursos.Add(reader["Denominacion"].ToString());
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar los cursos: " + ex.Message);
+            }
+            finally
+            {
+                miConexionSql.Close();
+            }
+
+
+            CursosListBox.ItemsSource = cursos;
+
         }
     }
 }

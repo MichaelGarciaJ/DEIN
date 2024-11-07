@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\bin\Release\A1.12_BdD_Garcia_Michael.exe.config
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\bin\Release\A1.12_BdD_Garcia_Michael.exe
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\bin\Release\A1.12_BdD_Garcia_Michael.pdb
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\MainWindow.g.cs
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\App.g.cs
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael_MarkupCompile.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael_MarkupCompile.lref
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\MainWindow.baml
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael.g.resources
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1._12_BdD_Garcia_Michael.Properties.Resources.resources
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael.exe
+C:\Users\Usuario\Documents\DAM2\DEIN\UT1\A1.12_BdD_Garcia_Michael\A1.12_BdD_Garcia_Michael\obj\Release\A1.12_BdD_Garcia_Michael.pdb
