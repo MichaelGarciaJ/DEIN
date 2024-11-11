@@ -9,13 +9,12 @@
         ResizeMode="CanResizeWithGrip">
     <Grid>
 
-        <Label Content="Departamento RRHH" FontSize="20" HorizontalAlignment="Center" Margin="0,113,0,281"></Label>
+        <Label Content="Departamento RRHH" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,94,0,269"></Label>
 
-        <Button Name="ListEmpleados" Width="150" Height="60" Margin="135,187,515,187" Click="ListEmpleados_Click">Lista de Empleados</Button>
-        <Button Name="AgregarEmpleados" Width="150" Height="60" Margin="534,187,116,187" Click="">Lista de Empleados</Button>
-        <Button Name="BuscarEmpleado" Width="150" Height="60" Margin="325,187,325,187" Click="">Lista de Empleados</Button>
-        
-        
-        
+        <Button Name="ListEmpleados" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="60" Margin="135,187,515,187" Click="ListEmpleados_Click">Lista de Empleados</Button>
+        <Button Name="AgregarEmpleados" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="60" Margin="325,187,325,187" Click="AgregarEmpleados_Click">Agregar Empleados</Button>
+        <Button Name="BuscarEmpleado" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="60" Margin="514,187,136,187" Click="BuscarEmpleado_Click">Buscar Empleado</Button>
+
+
     </Grid>
 </Window>

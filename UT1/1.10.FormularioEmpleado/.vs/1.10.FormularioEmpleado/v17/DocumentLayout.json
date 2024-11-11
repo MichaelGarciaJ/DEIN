@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.10.FormularioEmpleado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0AC90CE-27A0-4ABB-ACD8-CCC66364B8AB}|1.10.FormularioEmpleado\\1.10.FormularioEmpleado.csproj|c:\\users\\usuario\\documents\\dam2\\dein\\ut1\\1.10.formularioempleado\\1.10.formularioempleado\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0AC90CE-27A0-4ABB-ACD8-CCC66364B8AB}|1.10.FormularioEmpleado\\1.10.FormularioEmpleado.csproj|C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.10.FormularioEmpleado\\1.10.formularioempleado\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0AC90CE-27A0-4ABB-ACD8-CCC66364B8AB}|1.10.FormularioEmpleado\\1.10.FormularioEmpleado.csproj|solutionrelative:1.10.formularioempleado\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0AC90CE-27A0-4ABB-ACD8-CCC66364B8AB}|1.10.FormularioEmpleado\\1.10.FormularioEmpleado.csproj|C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.10.FormularioEmpleado\\1.10.formularioempleado\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D0AC90CE-27A0-4ABB-ACD8-CCC66364B8AB}|1.10.FormularioEmpleado\\1.10.FormularioEmpleado.csproj|c:\\users\\usuario\\documents\\dam2\\dein\\ut1\\1.10.formularioempleado\\1.10.formularioempleado\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D0AC90CE-27A0-4ABB-ACD8-CCC66364B8AB}|1.10.FormularioEmpleado\\1.10.FormularioEmpleado.csproj|solutionrelative:1.10.formularioempleado\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "1.10.FormularioEmpleado\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.10.FormularioEmpleado\\1.10.FormularioEmpleado\\MainWindow.xaml.cs",
               "RelativeToolTip": "1.10.FormularioEmpleado\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGYBAAAAAAAAAAAcwHQBAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAEABAAAAAAAAAAAAAFYBAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T12:32:31.113Z",
               "IsPinned": true,

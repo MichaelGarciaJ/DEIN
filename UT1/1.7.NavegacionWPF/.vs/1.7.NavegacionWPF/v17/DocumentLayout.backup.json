@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.7.NavegacionWPF\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\1.7.navegacionwpf\\1.7.navegacionwpf\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|solutionrelative:1.7.navegacionwpf\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|c:\\users\\usuario\\documents\\dam2\\dein\\ut1\\1.7.navegacionwpf\\1.7.navegacionwpf\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|solutionrelative:1.7.navegacionwpf\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\1.7.navegacionwpf\\1.7.navegacionwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.navegacionwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|solutionrelative:1.7.navegacionwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\1.7.navegacionwpf\\1.7.navegacionwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.navegacionwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|solutionrelative:1.7.navegacionwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|c:\\users\\usuario\\documents\\dam2\\dein\\ut1\\1.7.navegacionwpf\\1.7.navegacionwpf\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE6AB0-A772-421D-9ACF-EEF2B452099C}|1.7.NavegacionWPF\\1.7.NavegacionWPF.csproj|solutionrelative:1.7.navegacionwpf\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,24 +31,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Window1.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\Window1.xaml",
-              "RelativeDocumentMoniker": "1.7.NavegacionWPF\\Window1.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\Window1.xaml",
-              "RelativeToolTip": "1.7.NavegacionWPF\\Window1.xaml",
+              "Title": "Window2.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\Window2.xaml",
+              "RelativeDocumentMoniker": "1.7.NavegacionWPF\\Window2.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\Window2.xaml",
+              "RelativeToolTip": "1.7.NavegacionWPF\\Window2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-28T08:58:29.33Z",
+              "WhenOpened": "2024-10-28T22:25:35.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "1.7.NavegacionWPF\\Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\Window1.xaml.cs",
+              "RelativeToolTip": "1.7.NavegacionWPF\\Window1.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T21:01:01.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "1.7.NavegacionWPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "1.7.NavegacionWPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T08:46:53.017Z",
               "EditorCaption": ""
@@ -53,9 +70,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "1.7.NavegacionWPF\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\1.7.NavegacionWPF\\1.7.NavegacionWPF\\MainWindow.xaml",
               "RelativeToolTip": "1.7.NavegacionWPF\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-28T08:11:19.919Z",

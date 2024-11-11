@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\GestionEmpleados2024\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\GestionEmpleados2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EBA516F-6652-444D-B697-1F3CCBF97A2E}|GestionEmpleados2024\\GestionEmpleados2024.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\gestionempleados2024\\gestionempleados2024\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7EBA516F-6652-444D-B697-1F3CCBF97A2E}|GestionEmpleados2024\\GestionEmpleados2024.csproj|C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\GestionEmpleados2024\\gestionempleados2024\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7EBA516F-6652-444D-B697-1F3CCBF97A2E}|GestionEmpleados2024\\GestionEmpleados2024.csproj|solutionrelative:gestionempleados2024\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EBA516F-6652-444D-B697-1F3CCBF97A2E}|GestionEmpleados2024\\GestionEmpleados2024.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\gestionempleados2024\\gestionempleados2024\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EBA516F-6652-444D-B697-1F3CCBF97A2E}|GestionEmpleados2024\\GestionEmpleados2024.csproj|C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\GestionEmpleados2024\\gestionempleados2024\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EBA516F-6652-444D-B697-1F3CCBF97A2E}|GestionEmpleados2024\\GestionEmpleados2024.csproj|solutionrelative:gestionempleados2024\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GestionEmpleados2024\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml",
               "RelativeToolTip": "GestionEmpleados2024\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-08T09:26:56.66Z",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GestionEmpleados2024\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\GestionEmpleados2024\\GestionEmpleados2024\\MainWindow.xaml.cs",
               "RelativeToolTip": "GestionEmpleados2024\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv0EAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T09:26:56.29Z",
               "EditorCaption": ""
