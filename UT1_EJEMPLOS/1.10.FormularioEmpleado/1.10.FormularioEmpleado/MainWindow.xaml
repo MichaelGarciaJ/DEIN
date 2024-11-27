@@ -1,0 +1,74 @@
+﻿<Window x:Class="_1._10.FormularioEmpleado.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1._10.FormularioEmpleado"
+        mc:Ignorable="d"
+        Title="Introducción de Datos Empleados" Height="900" Width="800"
+        WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip">
+
+    <Grid>
+
+        <!--Título-->
+        <TextBlock Text="Introducción de Datos de Empleados" FontSize="25"
+                   HorizontalAlignment="Center" Margin="0,10,0,20"/>
+
+        <!-- Campos de entrada -->
+        <TextBlock Text="Nombre*" Margin="20,60,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtNombre" Tag="Nombre" GotFocus="txtNombre_GotFocus" LostFocus="txtNombre_LostFocus" Margin="80,60,390,0" VerticalAlignment="Top"/>
+        
+        <TextBlock Text="Apellidos" Margin="20,90,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtApellidos" Tag="Apellidos" GotFocus="txtApellidos_GotFocus" LostFocus="txtApellidos_LostFocus" Margin="80,90,390,0" VerticalAlignment="Top"/>
+        
+        <TextBlock Text="E-mail*" Margin="20,120,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtEmail" Tag="Email" GotFocus="txtEmail_GotFocus" LostFocus="txtEmail_LostFocus" Margin="80,120,390,0" VerticalAlignment="Top"/>
+        
+        <TextBlock Text="Teléfono" Margin="20,150,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtTelefono" Tag="Telefono" GotFocus="txtTelefono_GotFocus" LostFocus="txtTelefono_LostFocus" Margin="80,150,390,0" VerticalAlignment="Top"/>
+        
+        <TextBlock Text="Fecha de nacimiento" Margin="20,180,390,0" VerticalAlignment="Top" Height="18"/>
+        <DatePicker x:Name="dtPickerFechaNacimiento" Tag="FechaNacimiento" Margin="140,180,390,0" VerticalAlignment="Top"/>
+        
+        <TextBlock Text="DNI" Margin="20,215,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtDni" Tag="Dni" GotFocus="txtDni_GotFocus" LostFocus="txtDni_LostFocus" Margin="60,215,500,0" VerticalAlignment="Top"/>
+        
+        <TextBlock Text="Adjuntar fotografía" Margin="20,280,390,0" VerticalAlignment="Top" Height="18"/>
+        <Button Content="Cargar Foto" Click="btnCargarFoto" Margin="140,270,545,0" VerticalAlignment="Top" Height="35"/>
+        
+        <TextBlock Text="Domicilio" Margin="20,340,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtDireccion" Tag="Dirección" GotFocus="txtDireccion_GotFocus"  LostFocus="txtDireccion_LostFocus" Margin="100,340,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCiudad" Tag="Ciudad" GotFocus="txtCiudad_GotFocus" LostFocus="txtCiudad_LostFocus" Margin="100,365,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProvincia" Tag="Provincia" GotFocus="txtProvincia_GotFocus" LostFocus="txtProvincia_LostFocus" Margin="100,390,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCodigoPostal" Tag="Código Postal" GotFocus="txtCodigoPostal_GotFocus"  LostFocus="txtCodigoPostal_LostFocus"  Margin="100,415,390,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPais" Tag="País" GotFocus="txtPais_GotFocus"  LostFocus="txtPais_LostFocus"  Margin="100,440,390,0" VerticalAlignment="Top"/>
+
+        <Image Source="\imgs\logoFormulario.png" Width="200" Height="200" Stretch="Uniform" Margin="558,267,42,417"/>
+
+        <TextBlock Text="Enlace a red social" Margin="20,480,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtEnlaceRedSocial" Tag="EnlaceRedSocial" GotFocus="txtEnlaceRedSocial_GotFocus" LostFocus="txtEnlaceRedSocial_LostFocus" Margin="140,480,42,0" VerticalAlignment="Top"/>
+        
+        <TextBlock Text="Rol actual" Margin="20,510,390,0" VerticalAlignment="Top" Height="18"/>
+        <ComboBox x:Name="cbBoxRol" Margin="140,510,390,0" VerticalAlignment="Top">
+            <ComboBoxItem Content="Subjefe"/>
+            <ComboBoxItem Content="Empleado"/>
+        </ComboBox>
+        
+        <TextBlock Text="Descripción del puesto de trabajo actual:" Margin="20,540,390,0" VerticalAlignment="Top" Height="18"/>
+        <TextBox x:Name="txtDescricpcion" Tag="DescripcionPuesto" GotFocus="txtDescricpcion_GotFocus" LostFocus="txtDescricpcion_LostFocus" Margin="20,565,42,0" VerticalAlignment="Top" Height="100"/>
+        
+        <Button Content="Guardar" Click="btnGuardar"  Margin="285,675,400,0" VerticalAlignment="Top" Height="35"/>
+        <Button Content="Cancelar" Click="btnCancelar"  Margin="411,675,274,0" VerticalAlignment="Top" Height="35"/>
+
+        <DataGrid Name="dataGridEmpleados" AutoGenerateColumns="False" Margin="20,728,20,34" SelectionChanged="dataGridEmpleados_SelectionChanged_1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}"/>
+                <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Teléfono" Binding="{Binding Telefono}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+    </Grid>
+</Window>

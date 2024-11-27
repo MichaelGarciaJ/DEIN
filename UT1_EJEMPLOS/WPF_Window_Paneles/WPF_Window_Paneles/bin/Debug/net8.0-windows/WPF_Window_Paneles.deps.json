@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WPF_Window_Paneles/1.0.0": {
+        "runtime": {
+          "WPF_Window_Paneles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPF_Window_Paneles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

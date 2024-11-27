@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\WPF_Window_Paneles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{821BFF09-8B32-4B58-8112-19AF0657724E}|WPF_Window_Paneles\\WPF_Window_Paneles.csproj|c:\\users\\usuario\\documents\\dam2\\dein\\ut1\\wpf_window_paneles\\wpf_window_paneles\\wrappanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{821BFF09-8B32-4B58-8112-19AF0657724E}|WPF_Window_Paneles\\WPF_Window_Paneles.csproj|solutionrelative:wpf_window_paneles\\wrappanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WrapPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\WPF_Window_Paneles\\WPF_Window_Paneles\\WrapPanel.xaml",
+              "RelativeDocumentMoniker": "WPF_Window_Paneles\\WrapPanel.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\DAM2\\DEIN\\UT1\\WPF_Window_Paneles\\WPF_Window_Paneles\\WrapPanel.xaml",
+              "RelativeToolTip": "WPF_Window_Paneles\\WrapPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T22:09:06.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
