@@ -18,3 +18,24 @@ C:\Users\Usuario\source\repos\Databinding_clase\Databinding_clase\obj\Debug\net8
 C:\Users\Usuario\source\repos\Databinding_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.pdb
 C:\Users\Usuario\source\repos\Databinding_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\Databinding_clase\Databinding_clase\obj\Debug\net8.0-windows\ref\Databinding_clase.dll
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\bin\Debug\net8.0-windows\Databinding_clase.exe
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\bin\Debug\net8.0-windows\Databinding_clase.deps.json
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\bin\Debug\net8.0-windows\Databinding_clase.runtimeconfig.json
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\bin\Debug\net8.0-windows\Databinding_clase.dll
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\bin\Debug\net8.0-windows\Databinding_clase.pdb
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase_MarkupCompile.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase_MarkupCompile.lref
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.g.resources
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.AssemblyInfoInputs.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.AssemblyInfo.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.csproj.CoreCompileInputs.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.sourcelink.json
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.dll
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\refint\Databinding_clase.dll
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.pdb
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\Databinding_clase.genruntimeconfig.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1_EJEMPLOS\Databinding_Ejemplos_clase\Databinding_clase\obj\Debug\net8.0-windows\ref\Databinding_clase.dll

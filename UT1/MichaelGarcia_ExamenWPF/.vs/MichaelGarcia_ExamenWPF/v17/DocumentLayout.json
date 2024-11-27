@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\MichaelGarcia_ExamenWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20ECEAF8-51AC-4BA7-832A-E23E316A2C75}|MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1\\michaelgarcia_examenwpf\\michaelgarcia_examenwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{20ECEAF8-51AC-4BA7-832A-E23E316A2C75}|MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF.csproj|solutionrelative:michaelgarcia_examenwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20ECEAF8-51AC-4BA7-832A-E23E316A2C75}|MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF.csproj|C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\MichaelGarcia_ExamenWPF\\michaelgarcia_examenwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20ECEAF8-51AC-4BA7-832A-E23E316A2C75}|MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF.csproj|solutionrelative:michaelgarcia_examenwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MichaelGarcia_ExamenWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF\\MainWindow.xaml",
+              "RelativeToolTip": "MichaelGarcia_ExamenWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T11:26:25.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MichaelGarcia_ExamenWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1\\MichaelGarcia_ExamenWPF\\MichaelGarcia_ExamenWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MichaelGarcia_ExamenWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwDIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T11:26:25.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

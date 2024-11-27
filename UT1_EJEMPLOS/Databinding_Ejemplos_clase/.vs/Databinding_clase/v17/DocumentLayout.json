@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Databinding_clase\\",
+  "WorkspaceRootPath": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1_EJEMPLOS\\Databinding_Ejemplos_clase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09B2F3FC-6F12-441B-8D45-EFB75648C77D}|Databinding_clase\\Databinding_clase.csproj|c:\\users\\usuario\\source\\repos\\databinding_clase\\databinding_clase\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{09B2F3FC-6F12-441B-8D45-EFB75648C77D}|Databinding_clase\\Databinding_clase.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1_ejemplos\\databinding_ejemplos_clase\\databinding_clase\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{09B2F3FC-6F12-441B-8D45-EFB75648C77D}|Databinding_clase\\Databinding_clase.csproj|solutionrelative:databinding_clase\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09B2F3FC-6F12-441B-8D45-EFB75648C77D}|Databinding_clase\\Databinding_clase.csproj|c:\\users\\usuario\\source\\repos\\databinding_clase\\databinding_clase\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09B2F3FC-6F12-441B-8D45-EFB75648C77D}|Databinding_clase\\Databinding_clase.csproj|c:\\users\\alumma\\michael\\dam2\\desarrollo interfaces\\dein\\ut1_ejemplos\\databinding_ejemplos_clase\\databinding_clase\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09B2F3FC-6F12-441B-8D45-EFB75648C77D}|Databinding_clase\\Databinding_clase.csproj|solutionrelative:databinding_clase\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,17 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Databinding_clase\\Databinding_clase\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1_EJEMPLOS\\Databinding_Ejemplos_clase\\Databinding_clase\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Databinding_clase\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Databinding_clase\\Databinding_clase\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1_EJEMPLOS\\Databinding_Ejemplos_clase\\Databinding_clase\\MainWindow.xaml.cs",
               "RelativeToolTip": "Databinding_clase\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T17:42:43.21Z",
               "EditorCaption": ""
@@ -37,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Databinding_clase\\Databinding_clase\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1_EJEMPLOS\\Databinding_Ejemplos_clase\\Databinding_clase\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Databinding_clase\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Databinding_clase\\Databinding_clase\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alumMA\\Michael\\DAM2\\Desarrollo Interfaces\\DEIN\\UT1_EJEMPLOS\\Databinding_Ejemplos_clase\\Databinding_clase\\MainWindow.xaml",
               "RelativeToolTip": "Databinding_clase\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-30T17:28:51.455Z",

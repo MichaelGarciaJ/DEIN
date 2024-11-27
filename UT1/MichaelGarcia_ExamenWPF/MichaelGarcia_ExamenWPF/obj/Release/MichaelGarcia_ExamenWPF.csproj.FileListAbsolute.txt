@@ -1,0 +1,15 @@
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\bin\Release\MichaelGarcia_ExamenWPF.exe.config
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\bin\Release\MichaelGarcia_ExamenWPF.exe
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\bin\Release\MichaelGarcia_ExamenWPF.pdb
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF.csproj.AssemblyReference.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MainWindow.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\App.g.cs
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF_MarkupCompile.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF_MarkupCompile.lref
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MainWindow.baml
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF.g.resources
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF.Properties.Resources.resources
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF.csproj.GenerateResource.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF.csproj.CoreCompileInputs.cache
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF.exe
+C:\Users\alumMA\Michael\DAM2\Desarrollo Interfaces\DEIN\UT1\MichaelGarcia_ExamenWPF\MichaelGarcia_ExamenWPF\obj\Release\MichaelGarcia_ExamenWPF.pdb
