@@ -1,0 +1,9 @@
+﻿<Application x:Class="MichaelGarcia_ActComplementaria_Examen.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MichaelGarcia_ActComplementaria_Examen"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
