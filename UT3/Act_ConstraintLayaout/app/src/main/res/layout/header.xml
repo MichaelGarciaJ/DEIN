@@ -1,6 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/include_header"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:elevation="4dp">
+
+    <!--  Contendor encabezado  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_cl_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--  Texto Actividad Constraint Layaout  -->
+        <TextView
+            android:id="@+id/main_tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:text="@string/main_tv_nombre"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--  Texto 9:30:00 hora  -->
+        <TextView
+            android:id="@+id/main_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="42dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/main_tv_time"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/main_iv_battery"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--  Imagen batteria -->
+        <ImageView
+            android:id="@+id/main_iv_battery"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_modern_battery"
+            app:layout_constraintEnd_toStartOf="@+id/main_tv_porcentaje"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--  Texto porcentaje de bateria  -->
+        <TextView
+            android:id="@+id/main_tv_porcentaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/main_tv_porcentaje"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/main_ib_teclado"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--  Botón con imagen de teclado -->
+        <ImageButton
+            android:id="@+id/main_ib_teclado"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_modern_keyboard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--  Imagen de icono de usuario -->
+        <ImageView
+            android:id="@+id/main_iv_user"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_modern_user"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_tv_nombre"/>
+
+        <!--  Texto de nombre y apellido  -->
+        <TextView
+            android:id="@+id/main_tv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/main_tv_user"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/main_iv_user"
+            app:layout_constraintTop_toBottomOf="@id/main_tv_nombre" />
+
+        <!--  Imagen de icono de ubicación  -->
+        <ImageView
+            android:id="@+id/main_iv_location"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="26dp"
+            android:src="@drawable/ic_modern_location"
+            app:layout_constraintStart_toEndOf="@+id/main_tv_user"
+            app:layout_constraintTop_toBottomOf="@id/main_tv_nombre" />
+
+        <!--  Texto de ubicación -->
+        <TextView
+            android:id="@+id/main_tv_dein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/main_tv_dein"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/main_iv_location"
+            app:layout_constraintTop_toBottomOf="@id/main_tv_nombre"/>
+
+        <!--  Texto 56db  -->
+        <TextView
+            android:id="@+id/main_tv_signal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/main_tv_signal"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_tv_nombre"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

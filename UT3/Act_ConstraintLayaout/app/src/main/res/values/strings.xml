@@ -5,6 +5,15 @@
     <string name="main_tv_nombre">Actividad Constraint Layaut</string>
     <string name="main_tv_user">Nombre Apellido 1</string>
     <string name="main_tv_dein">DEIN - Desarrollo de interfaces</string>
+    <string name="main_tv_signal">56 dB</string>
+    <string name="main_tv_time">9:30:00</string>
+    <string name="main_tv_porcentaje">60%</string>
+    <string name="main_tv_9999">9999</string>
+    <string name="main_tv_num">1234567</string>
+    <string name="main_tv_1000">1000</string>
+    <string name="main_tv_24">24</string>
+    <string name="main_bt_ok">OK</string>
+    <string name="main_et_texoLectura">Realice lectura</string>
 
 
 </resources>
