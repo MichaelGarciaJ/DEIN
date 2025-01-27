@@ -1,0 +1,10 @@
+<resources>
+    <!-- MAIN ACTIVITY -->
+    <string name="app_name">DEIN1</string>
+    <string name="login">Inciar Sesión</string>
+
+    <!-- GENERALES-->
+    <string name="volver">Volver</string>
+    <string name="text_form_tv_bienvenido">BIENVENIDO</string>
+
+</resources>

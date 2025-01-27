@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Act1</string>
+
+    <!-- MAIN -->
+    <string name="main_tv_nombre">Actividad Constraint Layaut</string>
+    <string name="main_tv_user">Nombre Apellido 1</string>
+    <string name="main_tv_dein">DEIN - Desarrollo de interfaces</string>
+
+
+</resources>
