@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kudage</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="main_tv_login">Inciar Sesión</string>
+    <string name="main_et_usuario">Correo Electrónico</string>
+    <string name="main_et_contraUser">Contraseña</string>
+    <string name="main_bt_login">Iniciar Sesión</string>
+
+    <!-- SPLASH ACTIVITY -->
+    <string name="actSplash_tv_nombEmpresa">WEATHERCAL</string>
+
+    <!-- FORMULARIO ACTIVITY -->
+    <string name="volver">Volver</string>
+    <string name="aForm_tv_nombre">Nombre</string>
+
+
+
+</resources>

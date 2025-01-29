@@ -93,30 +93,32 @@
             <!--  Texto de 1000  -->
             <TextView
                 android:id="@+id/main_tv_1000"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/main_tv_1000"
                 android:fontFamily="sans-serif"
+                android:text="@string/main_tv_1000"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <!--  Texto de 24  -->
             <TextView
                 android:id="@+id/main_tv_24"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/main_tv_24"
                 android:fontFamily="sans-serif"
+                android:text="@string/main_tv_24"
                 android:textColor="@color/black"
                 android:textSize="28sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
         </LinearLayout>
 
         <include
-            layout="@layout/botonera"
             android:id="@+id/include_botonera"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            layout="@layout/botonera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

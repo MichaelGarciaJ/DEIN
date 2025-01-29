@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FormularioActivity">
+
+    <TextView
+        android:id="@+id/aForm_tv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/aForm_tv_nombre" />
+
+
+    <EditText
+        android:id="@+id/input_form_et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aForm_tv_nombre"
+        android:layout_marginTop="16dp"
+        android:inputType="text" />
+
+    <DatePicker
+        android:id="@+id/calen_form_dp_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_form_et_nombre"
+        android:layout_marginTop="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/relat_form_rl_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calen_form_dp_nombre">
+
+        <Button
+            android:id="@+id/form_btn_volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="50dp"
+            android:onClick="gotoMain"
+            android:text="@string/volver"/>
+    </RelativeLayout>
+
+</RelativeLayout>
