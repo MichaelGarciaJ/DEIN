@@ -40,6 +40,7 @@ android {
 
 dependencies {
 
+    implementation("androidx.preference:preference:1.2.0")
     val room_version = "2.5.0"
 
 
