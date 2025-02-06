@@ -40,4 +40,5 @@
         android:checked="true"
         android:title="@string/mostrarConsumo"/>
 
+
 </menu>

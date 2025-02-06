@@ -4,8 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import android.view.MenuInflater
+import androidx.appcompat.widget.PopupMenu
 import android.view.MenuItem
+import android.view.View
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 
@@ -18,6 +20,37 @@ class MainActivity : AppCompatActivity() {
         // Configurar la Toolbar como ActionBar
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
+
+        val moreButton: ImageView = findViewById(R.id.more_actions_button)
+        moreButton.setOnClickListener { view ->
+            showMoreActionsMenu(view)
+        }
+    }
+
+    private fun showMoreActionsMenu(button: View) {
+        val popup = PopupMenu(this, button)
+        popup.menuInflater.inflate(R.menu.popup_menu, popup.menu)
+
+        popup.setOnMenuItemClickListener { item ->
+            when (item.itemId) {
+                R.id.add_favorites -> {
+                    mostrarToast("Añadiendo a favoritos...", Toast.LENGTH_SHORT)
+                    true
+                }
+                R.id.share -> {
+                    mostrarToast("Compartiendo...", Toast.LENGTH_SHORT)
+                    true
+                }
+                R.id.move -> {
+                    mostrarToast("Moviendo a...", Toast.LENGTH_SHORT)
+                    true
+                }
+
+                else -> false
+            }
+        }
+
+        popup.show()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -57,4 +90,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, SettingsActivity::class.java)
         startActivity(intent)
     }
+
+
 }

@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Menus</string>
+
+    <!-- MAIN -->
     <string name="hello_world">Hola Mundo</string>
+    <string name="more_options">PopupMenu en Android</string>
+    <string name="popupmenu_en_android">PopupMenu En Android</string>
+    <string name="subtitle_text">El PopupMenu en Android es un menú \nque se ancla a un View</string>
+
+    <!-- MENÚ -->
     <string name="edit_action">Editar</string>
     <string name="delete_action">Eliminar</string>
     <string name="share_action">Compartir</string>
@@ -11,6 +18,10 @@
     <string name="mostrarConsumo">Mostrar_consumo</string>
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="settings_action">Ajustes</string>
+
+    <!-- POPUP MENÚ -->
+    <string name="anyadirFavoritos">Añadir a favoritos</string>
+
 
 
     <!-- Preference Titles -->
@@ -27,6 +38,7 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="moveA">Mover a</string>
 
 
 </resources>
